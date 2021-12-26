@@ -36,7 +36,7 @@ Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are argume
 
 
 # Line and Message Breaks Help / Помощь по организации переносов по строкам и сообщениям.
-## On English
+## English
 Sometimes there could be a very big problem: text may not fully get in textbox. But with this tool thou don't need to cut some part of text, no. Thou can use message breaks. Methods are below.
 ### For message breaks insert this below the current message ("SomeString" -> text on the new message).
 ```
@@ -60,7 +60,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 ["SomeString"]
 ```
 
-## На русском
+## Русский
 Иногда можно столкнуться с одной большой-пребольшой проблемой: текст может не полностью влезать в текстовое окно. Однако, с сим средством вам не нужно обрезать его, отнюдь. Вы можеет организовывать переносы по сообщениям. Метод указан ниже.
 ### Для переносов по сообщениям добавьте под текущее сообщение следующий код ("Какая_то_строка" -> текст на новой строке).
 ```
