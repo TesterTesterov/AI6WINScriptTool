@@ -38,7 +38,6 @@ Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are argume
 # Line and Message Breaks Help / Помощь по организации переносов по строкам и сообщениям.
 ## On English
 Sometimes there could be a very big problem: text may not fully get in textbox. But with this tool thou don't need to cut some part of text, no. Thou can use message breaks. Methods are below.
-```
 ### For message breaks insert this below the current message ("SomeString" -> text on the new message).
 ```
 #1-32
