@@ -78,18 +78,62 @@ class AI6WINMesGUI(SilkyMesGUI):
 
     common_help = {
         'eng': """
-
+Dual languaged (rus+eng) tool for disassembling and assembling scripts .mes from the visual novel's engine AI6WIN. Very incomplete list of games on this engine you can find on vndb. With it thou can fully edit all thecode, not just strings. Thou can add message breaks and change scenarios without restrictions! Mes script files can be used not just in AI6WIN, but also in Silky Engine. For assembling and disassembling mes script files of Silky Engine use mesScriptAsseAndDisassembler.
+Also you may want to pack and unpack archives of AI6WIN. For it use AI6WINArcTool.
+Definations: "#0-" are "free bytes", "#1-" are commands (and "[...]" are arguments below), "#2-" are labels.
     """,
         'rus': """
-    
+Двуязычное (рус+англ) средство для разборки и сборки скриптов .mes движка визуальных новелл AI6WIN. С неполным списком игр на нём вы можете ознакомиться на vndb. С ним вы можете полностью редактирвоать код, а не только строки; по вашему повелению добавлять разрывы между сообщений и даже менять сценарии по своему замыслу! Скрипты с расширением "mes" используются не только в AI6WIN, но также и в Silky Engine. Чтобы дизассемблировать и ассемблировать скрипты движка Silky Engine используйте иное средство -- mesScriptAsseAndDisassembler.
+Также вам может понадобиться распаковывать и паковать архивы движка AI6WIN. Для сего используйте средство AI6WINArcTool.
+Определения: "#0-" есть "вольные байты", "#1-" есть команды (и под ними "[...]" аргументы), "#2-" есть метки.
     """
     }
     breaks_help = {
         'eng': """
+Sometimes there could be a very big problem: text may not fully get in textbox. But with this tool thou don't need to cut some part of text, no. Thou can use message breaks. Methods are below.
+>>> For message breaks insert this below the current message ("SomeString" -> text on the new message).
 
+#1-32
+[0, 3]
+#1-32
+[0, 23]
+#1-18
+[]
+#1-32
+[0, 4]
+#1-32
+[0, 0]
+#1-32
+[0, 31]
+#1-18
+[]
+#1-MESSAGE
+["*MESSAGE_NUMBER*"]
+#1-STR_UNCRYPT
+["SomeString"]
     """,
         'rus': """
+Иногда можно столкнуться с одной большой-пребольшой проблемой: текст может не полностью влезать в текстовое окно. Однако, с сим средством вам не нужно обрезать его, отнюдь. Вы можеет организовывать переносы по сообщениям. Метод указан ниже.
+>>>Для переносов по сообщениям добавьте под текущее сообщение следующий код ("Какая_то_строка" -> текст на новой строке).
 
+#1-32
+[0, 3]
+#1-32
+[0, 23]
+#1-18
+[]
+#1-32
+[0, 4]
+#1-32
+[0, 0]
+#1-32
+[0, 31]
+#1-18
+[]
+#1-MESSAGE
+["*MESSAGE_NUMBER*"]
+#1-STR_UNCRYPT
+["Какая_то_строка"]
     """
     }
 
