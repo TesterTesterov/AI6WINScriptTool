@@ -21,8 +21,8 @@ Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are argume
 1. Choose the mode, file or directory. In first mode you will work with one .mes - .txt pair, in second -- with all files in a pair of directories.
 2. Enter a name of the .mes file in the top entry (do see, with extension) or the directory name. Thou can also enter relative or absolute path. You can also click on "..." to choose.
 3. Enter a name of the .txt file (do see, with extension) or the directory name. Thou can also enter relative or absolute path. You can also click on "..." to choose.
-4. For dissassemble push the button "Disassemble script".
-5. For assemble push the button "Assemble script".
+4. For dissassemble push the button "Disassemble".
+5. For assemble push the button "Assemble".
 6. Status will be displayed on the text area below.
 
 ## Русский
@@ -30,8 +30,8 @@ Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are argume
 1. Выберите режим: файл или директорию. В первом вы будете работать с парой .mes - .txt, во втором -- со всеми файлами в паре директорий.
 2. Введите название файла .mes в верхней форме (заметьте, с расширением) или имя директории. Также можно вводить относительный или абсолютный до него путь. Также вы можете нажать на кнопку "...", чтобы выбрать.
 3. Введите название файла .txt в нижней форме (заметьте, с расширением) или имя директории. Также можно вводить относительный или абсолютный до него путь. Также вы можете нажать на кнопку "...", чтобы выбрать.
-4. Для дизассемблирования нажмите на кнопку "Дизассемблировать скрипт".
-5. Для ассемблирования нажмите на кнопку "Ассемблировать скрипт".
+4. Для дизассемблирования нажмите на кнопку "Дизассемблировать".
+5. Для ассемблирования нажмите на кнопку "Ассемблировать".
 6. Статус сих операций будет отображаться на текстовом поле ниже.
 
 
