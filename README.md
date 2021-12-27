@@ -1,6 +1,6 @@
 # AI6WINScriptTool
 ## English
- Dual languaged (rus+eng) tool for disassembling and assembling scripts .mes from the visual novel's engine AI6WIN. Very incomplete list of games on this engine you can find [on vndb](https://vndb.org/v?q=&ch=&f=N18fwAI6WIN-). With it thou can fully edit all thecode, not just strings. Thou can add message breaks and change scenarios without restrictions!
+ Dual languaged (rus+eng) tool for disassembling and assembling scripts .mes from the visual novel's engine AI6WIN. Very incomplete list of games on this engine you can find [on vndb](https://vndb.org/v?q=&ch=&f=N18fwAI6WIN-). With it thou can fully edit all the code, not just strings. Thou can add message breaks and change scenarios without restrictions!
  Mes script files can be used not just in AI6WIN, but also in AI5WIN and Silky Engine. For assembling and disassembling mes script files of AI5WIN use [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) and for mes of Silky Engine use [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler).
  
  Also you may want to pack and unpack archives of AI6WIN. For it use [AI6WINArcTool](https://github.com/TesterTesterov/AI6WINArcTool).
