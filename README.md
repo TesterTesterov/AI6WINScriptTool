@@ -1,15 +1,15 @@
 # AI6WINScriptTool
 ## English
  Dual languaged (rus+eng) tool for disassembling and assembling scripts .mes from the visual novel's engine AI6WIN. Very incomplete list of games on this engine you can find [on vndb](https://vndb.org/v?q=&ch=&f=N18fwAI6WIN-). With it thou can fully edit all thecode, not just strings. Thou can add message breaks and change scenarios without restrictions!
- Mes script files can be used not just in AI6WIN, but also in Silky Engine. For assembling and disassembling mes script files of Silky Engine use [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler).
+ Mes script files can be used not just in AI6WIN, but also in AI5WIN and Silky Engine. For assembling and disassembling mes script files of AI5WIN use [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) and for mes of Silky Engine use [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler).
  
  Also you may want to pack and unpack archives of AI6WIN. For it use [AI6WINArcTool](https://github.com/TesterTesterov/AI6WINArcTool).
 
 Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are arguments below), "#2-" are labels.
 
 ## Russian
- Двуязычное (рус+англ) средство для разборки и сборки скриптов .mes движка визуальных новелл AI6WIN. С неполным списком игр на нём вы можете ознакомиться [на vndb](https://vndb.org/v?q=&ch=&f=N18fwAI6WIN-). С ним вы можете полностью редактирвоать код, а не только строки; по вашему повелению добавлять разрывы между сообщений и даже менять сценарии по своему замыслу!
-  Скрипты с расширением "mes" используются не только в AI6WIN, но также и в Silky Engine. Чтобы дизассемблировать и ассемблировать скрипты движка Silky Engine используйте иное средство -- [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler).
+ Двуязычное (рус+англ) средство для дизассемблирования и ассемблирования скриптов .mes движка визуальных новелл AI6WIN. С неполным списком игр на нём вы можете ознакомиться [на vndb](https://vndb.org/v?q=&ch=&f=N18fwAI6WIN-). С ним вы можете полностью редактирвоать код, а не только строки; по вашему повелению добавлять разрывы между сообщений и даже менять сценарии по своему замыслу!
+  Скрипты с расширением "mes" используются не только в AI6WIN, но также и в AI5WIN с Silky Engine. Чтобы дизассемблировать и ассемблировать скрипты движов AI5WIN и Silky Engine используйте иные следства -- [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) и [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler) соответственно.
  
  Также вам может понадобиться распаковывать и паковать архивы движка AI6WIN. Для сего используйте средство [AI6WINArcTool](https://github.com/TesterTesterov/AI6WINArcTool).
   
