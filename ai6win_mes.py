@@ -32,6 +32,7 @@ class AI6WINScript(SilkyMesScript):
         (0x1A, '>I', ''),
         (0x1B, '>I', ''),
         (0x1C, 'B', 'TO_NEW_STRING'),
+        (0x1D, '', ''),
 
         (0x32, '>hh', ''),
         (0x33, 'S', 'STR_RAW'),
