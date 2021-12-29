@@ -14,8 +14,8 @@ class AI6WINScript(SilkyMesScript):
         (0x05, '', ''),
         (0x06, '', ''),
 
-        (0x0A, 'S', 'STR_CRYPT'),
-        (0x0B, 'S', 'STR_UNCRYPT'),
+        (0x0A, 'S', 'STR_PRIMARY'),
+        (0x0B, 'S', 'STR_SUPPLEMENT'),
         (0x0C, '', ''),
         (0x0D, '', ''),
         (0x0E, '', ''),
@@ -30,8 +30,8 @@ class AI6WINScript(SilkyMesScript):
         (0x18, '', ''),
         (0x19, '>I', 'MESSAGE'),
         (0x1A, '>I', ''),
-        (0x1B, '>I', ''),
-        (0x1C, 'B', 'TO_NEW_STRING'),
+        (0x1B, 'B', 'TO_NEW_STRING'),
+        (0x1C, 'B', ''),  # Breaks the script?!!
         (0x1D, '', ''),
 
         (0x32, '>hh', ''),
@@ -60,6 +60,12 @@ class AI6WINScript(SilkyMesScript):
         (0xFD, '', ''),
         (0xFE, '', ''),
         (0xFF, '', ''),
+    )
+
+    offsets_library = (
+        (0x14, 0),
+        (0x15, 0),
+        (0x16, 0),
     )
 
     # User methods.
@@ -294,6 +300,36 @@ class AI6WINScript(SilkyMesScript):
     def set_true_offset(self, raw_offset):
         """Set true offset (as it is factically in the arguments)."""
         return raw_offset - self._prm[0] * 4 - 4
+
+    # Disassembling methods.
+
+    @staticmethod
+    def get_args(in_file, args: str, current_byte: int, current_encoding: str) -> list:
+        """Extract args from file."""
+        arguments_list = []
+        appendix = ""
+        for argument in args:  # self.command_library[lib_index][1]
+            if argument in AI6WINScript.technical_instances:
+                appendix = argument
+            elif argument in AI6WINScript.get_I.instances:
+                arguments_list.append(AI6WINScript.get_I(in_file, appendix+argument))
+            elif argument in AI6WINScript.get_H.instances:
+                arguments_list.append(AI6WINScript.get_H(in_file, appendix+argument))
+            elif argument in AI6WINScript.get_B.instances:
+                arguments_list.append(AI6WINScript.get_B(in_file, appendix+argument))
+            elif argument in AI6WINScript.get_S.instances:
+                arguments_list.append(AI6WINScript.get_S(in_file, current_encoding))
+        return arguments_list
+
+    @staticmethod
+    def get_S(in_file, this_encoding: str) -> tuple:
+        """Read string from file and it."""
+        string = b''
+        byte = in_file.read(1)
+        while byte != b'\x00':
+            string += byte
+            byte = in_file.read(1)
+        return string.decode(encoding=this_encoding)
 
 
 class AI6WINScriptError(SilkyMesScriptError):
