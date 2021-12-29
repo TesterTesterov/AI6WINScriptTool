@@ -42,7 +42,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 ```
 #1-TO_NEW_STRING
 [0]
-#1-STR_UNCRYPT
+#1-STR_PRIMARY
 ["SomeString"]
 ```
 ### For message breaks insert this below the current message ("SomeString" -> text on the new message).
@@ -63,7 +63,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 []
 #1-MESSAGE
 ["*MESSAGE_NUMBER*"]
-#1-STR_UNCRYPT
+#1-STR_PRIMARY
 ["SomeString"]
 ```
 
@@ -73,7 +73,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 ```
 #1-TO_NEW_STRING
 [0]
-#1-STR_UNCRYPT
+#1-STR_PRIMARY
 ["Какая_то_строка"]
 ```
 ### Для переносов по сообщениям добавьте под текущее сообщение следующий код ("Какая_то_строка" -> текст на новой строке).
@@ -94,7 +94,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 []
 #1-MESSAGE
 ["*MESSAGE_NUMBER*"]
-#1-STR_UNCRYPT
+#1-STR_PRIMARY
 ["Какая_то_строка"]
 ```
 
