@@ -103,7 +103,9 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 ## English
 - [Gakuen Saimin Reido -Sakki made, Daikirai Datta Hazu na no ni-](https://vndb.org/v1601).
 - [Words Worth - Windows 10 Edition](https://vndb.org/v315).
+- [Biniku no Kaori ~Netori Netorare Yari Yarare~](https://vndb.org/v470) by [Cosetto](https://github.com/Cosetto).
 
 ## Russian
 - [Рабыни гипноза в школе: А ведь недавно точно ненавидела](https://vndb.org/v1601).
 - [Значимость слов: Версия с поддержкой Windows 10](https://vndb.org/v315).
+- [Запах манящей плоти: Нэтори-нэторарэ яри-ярарэ](https://vndb.org/v470) протестировал [Cosetto](https://github.com/Cosetto).
