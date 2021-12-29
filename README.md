@@ -103,7 +103,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 ## English
 - [Gakuen Saimin Reido -Sakki made, Daikirai Datta Hazu na no ni-](https://vndb.org/v1601).
 - [Words Worth - Windows 10 Edition](https://vndb.org/v315).
-- [Biniku no Kaori ~Netori Netorare Yari Yarare~](https://vndb.org/v470) by [Cosetto](https://github.com/Cosetto).
+- [Biniku no Kaori \~Netori Netorare Yari Yarare\~](https://vndb.org/v470) by [Cosetto](https://github.com/Cosetto).
 - [Ai Shimai IV Kuyashikute Kimochi Yokatta Nante Ienai](https://vndb.org/v14826).
 - [Boku no Kanojo wa Gatenkei/Kanojo ga Shita Koto, Boku ga Sareta Koto/Kyonyuu Tsuma Kanzen Hokaku Keikaku/Boku no Tsuma ga Aitsu ni Netoraremashita.](https://vndb.org/v8731) by [Cosetto](https://github.com/Cosetto).
 
