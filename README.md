@@ -107,7 +107,7 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 - [Ai Shimai IV Kuyashikute Kimochi Yokatta Nante Ienai](https://vndb.org/v14826).
 - [Boku no Kanojo wa Gatenkei/Kanojo ga Shita Koto, Boku ga Sareta Koto/Kyonyuu Tsuma Kanzen Hokaku Keikaku/Boku no Tsuma ga Aitsu ni Netoraremashita.](https://vndb.org/v8731) by [Cosetto](https://github.com/Cosetto).
 
-## Russian
+## Русский
 - [Рабыни гипноза в школе: А ведь недавно точно ненавидела](https://vndb.org/v1601).
 - [Значимость слов: Версия с поддержкой Windows 10](https://vndb.org/v315).
 - [Запах манящей плоти: Нэтори-нэторарэ яри-ярарэ](https://vndb.org/v470) протестировал [Cosetto](https://github.com/Cosetto).
