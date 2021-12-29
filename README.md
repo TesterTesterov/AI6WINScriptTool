@@ -105,9 +105,11 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 - [Words Worth - Windows 10 Edition](https://vndb.org/v315).
 - [Biniku no Kaori ~Netori Netorare Yari Yarare~](https://vndb.org/v470) by [Cosetto](https://github.com/Cosetto).
 - [Ai Shimai IV Kuyashikute Kimochi Yokatta Nante Ienai](https://vndb.org/v14826).
+- [Boku no Kanojo wa Gatenkei/Kanojo ga Shita Koto, Boku ga Sareta Koto/Kyonyuu Tsuma Kanzen Hokaku Keikaku/Boku no Tsuma ga Aitsu ni Netoraremashita.](https://vndb.org/v8731) by [Cosetto](https://github.com/Cosetto).
 
 ## Russian
 - [Рабыни гипноза в школе: А ведь недавно точно ненавидела](https://vndb.org/v1601).
 - [Значимость слов: Версия с поддержкой Windows 10](https://vndb.org/v315).
 - [Запах манящей плоти: Нэтори-нэторарэ яри-ярарэ](https://vndb.org/v470) протестировал [Cosetto](https://github.com/Cosetto).
-- [Любимые сёстры: Я сожалению о содеянном; не могу же признать, что было приятно](https://vndb.org/v14826).
+- [Милые сёстры: Я сожалению о содеянном; не могу же признать, что было приятно](https://vndb.org/v14826).
+- [Моя девушка занимается физическим трудом/Содеянное ею же в отместку получила/План полного подчинения большегрудой жены/Моя жена изменила с тем негодником](https://vndb.org/v8731) протестировано [Cosetto](https://github.com/Cosetto).
