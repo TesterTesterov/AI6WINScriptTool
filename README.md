@@ -17,22 +17,24 @@ Definations: "#0-" are "free bytes", "#1-" are commands (and "\[...]" are argume
  
  # Usage / Использование
 ## English
-![image](https://user-images.githubusercontent.com/66121918/147406445-b902efdf-b693-40ab-ab3b-ee123b02ae4f.png)
+![image](https://user-images.githubusercontent.com/66121918/151975923-a0c54881-8424-4c0f-8268-18cb75969adb.png)
 1. Choose the mode, file or directory. In first mode you will work with one .mes - .txt pair, in second -- with all files in a pair of directories.
 2. Enter a name of the .mes file in the top entry (do see, with extension) or the directory name. Thou can also enter relative or absolute path. You can also click on "..." to choose.
 3. Enter a name of the .txt file (do see, with extension) or the directory name. Thou can also enter relative or absolute path. You can also click on "..." to choose.
-4. For dissassemble push the button "Disassemble".
-5. For assemble push the button "Assemble".
-6. Status will be displayed on the text area below.
+4. Choose the version of script file (1 in most games or 0 in earliest like Aishimai 4).
+5. For dissassemble push the button "Disassemble".
+6. For assemble push the button "Assemble".
+7. Status will be displayed on the text area below.
 
 ## Русский
-![image](https://user-images.githubusercontent.com/66121918/147406436-d0acbb0b-3744-47ee-bd68-008377343d6c.png)
+![image](https://user-images.githubusercontent.com/66121918/151975831-45c8b865-a1ad-4ebb-b429-2b81113515c8.png)
 1. Выберите режим: файл или директорию. В первом вы будете работать с парой .mes - .txt, во втором -- со всеми файлами в паре директорий.
 2. Введите название файла .mes в верхней форме (заметьте, с расширением) или имя директории. Также можно вводить относительный или абсолютный до него путь. Также вы можете нажать на кнопку "...", чтобы выбрать.
 3. Введите название файла .txt в нижней форме (заметьте, с расширением) или имя директории. Также можно вводить относительный или абсолютный до него путь. Также вы можете нажать на кнопку "...", чтобы выбрать.
-4. Для дизассемблирования нажмите на кнопку "Дизассемблировать".
-5. Для ассемблирования нажмите на кнопку "Ассемблировать".
-6. Статус сих операций будет отображаться на текстовом поле ниже.
+4. Выберите версию скрипта (1, что используется в большинстве игр, или 0, что в самых ранних вроде Милых сестёр IV).
+5. Для дизассемблирования нажмите на кнопку "Дизассемблировать".
+6. Для ассемблирования нажмите на кнопку "Ассемблировать".
+7. Статус сих операций будет отображаться на текстовом поле ниже.
 
 
 # Line and message breaks help / Помощь по организации переносов по строкам и сообщениям
@@ -111,5 +113,5 @@ Sometimes there could be a very big problem: text may not fully get in textbox. 
 - [Рабыни гипноза в школе: А ведь недавно точно ненавидела](https://vndb.org/v1601).
 - [Значимость слов: Версия с поддержкой Windows 10](https://vndb.org/v315).
 - [Запах манящей плоти: Нэтори-нэторарэ яри-ярарэ](https://vndb.org/v470) протестировал [Cosetto](https://github.com/Cosetto).
-- [Милые сёстры: Я сожалению о содеянном; не могу же признать, что было приятно](https://vndb.org/v14826).
+- [Милые сёстры IV: Я сожалению о содеянном; не могу же признать, что было приятно](https://vndb.org/v14826).
 - [Моя девушка занимается физическим трудом/Содеянное ею же в отместку получила/План полного подчинения большегрудой жены/Моя жена изменила с тем негодником](https://vndb.org/v8731) протестировал [Cosetto](https://github.com/Cosetto).
